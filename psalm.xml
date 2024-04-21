@@ -29,5 +29,11 @@
                 <file name="src/Driver/Http2Driver.php"/>
             </errorLevel>
         </PropertyNotSetInConstructor>
+
+        <RiskyTruthyFalsyComparison>
+            <errorLevel type="suppress">
+                <directory name="src" />
+            </errorLevel>
+        </RiskyTruthyFalsyComparison>
     </issueHandlers>
 </psalm>
