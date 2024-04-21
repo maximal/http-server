@@ -184,7 +184,7 @@ final class Response extends HttpResponse
      *
      * @param int $status 100 - 599
      */
-    public function setStatus(int $status, string $reason = null): void
+    public function setStatus(int $status, ?string $reason = null): void
     {
         parent::setStatus($this->validateStatusCode($status), $reason);
 
